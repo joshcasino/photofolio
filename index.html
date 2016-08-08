@@ -1,16 +1,62 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/js/bootstrap.min.js" type="text/css">
     <link rel="stylesheet" href="css/styles.css" type="text/css">
     <title>Josh Casuccio Portfolio</title>
   </head>
   <body>
   <div class="container">
     <header class="page-header">
-    <img src="img/header.jpg" alt="brand"/><h3 class="top-name">Joshua Casuccio</h3>
-  </header>
-  
+      <div>
+        <ul class="nav nav-pills pull-right">
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <h3>Joshua Casuccio</h3>
+      </div>
+    </header>
+ </div>
+<!--carousel start -->
+<div class="container">
+  <div id="splash" class="carousel slide jumbotron">
+    <div class="carousel-inner">
+
+      <div class="item active">
+        <img src="img/splash1.jpg" alt="The Loved Ones">
+        <div class="carousel-caption caption">
+          <h3>The Loved Ones</h3>
+          <p>
+            Live at Johnny Brenda's, Philadelphia, PA
+          </p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="img/splash2.jpg" alt="">
+        <div class="carousel-caption">
+        slide 2
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="img/splash3.jpg" alt="">
+        <div class="carousel-caption">
+        slide 3
+        </div>
+      </div>
+    </div>
+    <!-- Controls -->
+      <a href="#splash" class="left carousel-control" data-slide="prev">
+      <span class="icon-prev"></span>
+      </a>
+      <a href="#splash" class="right carousel-control" data-slide="next">
+      <span class="icon-next"></span>
+      </a>
+  </div>
+
+</div>
   </body>
 </html>
