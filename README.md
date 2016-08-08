@@ -2,7 +2,7 @@
 
 ### _Initial site for future photography works._ 8.7.16
 
-#### By _**{List of contributors}**_
+#### By _josh casuccio_
 
 ## Description
 
