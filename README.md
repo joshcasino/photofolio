@@ -15,7 +15,6 @@ No known bugs.
 
 ## Support and contact details
 
-email [Josh Casuccio](joshcasino@gmail.com)
 
 ## Technologies Used
 
